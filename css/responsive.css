@@ -1,12 +1,18 @@
 /* Tablet dai 768px in giu */
 
 @media screen and (max-width: 768px){
-    
+    .container{
+        width: 550px;
+    }
 }
 
 
 /* Mobile dai 576px in giu */
 
 @media screen and (max-width: 576px){
-    
+  
+    .row{
+        flex-direction: column;
+    }
+ 
 }
