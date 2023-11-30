@@ -22,9 +22,14 @@
 /* Mobile dai 576px in giu */
 
 @media screen and (max-width: 576px){
-  
+    .container{
+        width: 576px;
+    }
     .row{
-        flex-direction: column;
+        display: block;
+    }
+    .col{
+        margin: 0 auto;
     }
  
 }
